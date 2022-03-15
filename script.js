@@ -7,7 +7,7 @@ const chat = {
   1: {
     text: 'This is a choice-driven chatbot. Use the options below to guide the conversation.',
     options: [{
-      text: 'Cool! Hi 👋',
+      text: 'Hi 👋',
       next: 2
     }]
   },
@@ -18,14 +18,14 @@ const chat = {
   },
 
   3: {
-    text: 'Can you tell me which topic from below you are more interested in?',
+    text: 'Pick any options from below that you are more interested in',
     options: [{
         text: " 🙌 Quiz Game",
         next: 4
       },
       {
         text: " 🌎 Some Interesting facts about Climate Change",
-        next: 29
+        next: 208
       },
       {
         text: " 🤖 Tell me more about Climabot",
@@ -69,7 +69,7 @@ const chat = {
   },
 
   9: {
-    text: "The combustion of fossil fuels for energy is the biggest source of carbon dioxide emissions linked to human activity and a major cause of global warming.",
+    text: "The combustion of fossil fuels for energy is the biggest source of carbon dioxide emissions linked to human activity and a major cause of global warming. ",
     next: 200
   },
 
@@ -117,7 +117,7 @@ const chat = {
   201: {
     text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/9Wv2GKaukZU?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
     options: [{
-      text: 'Wow!',
+      text: "Wow! I didn't know that",
       next: 15
     }]
   },
@@ -155,7 +155,7 @@ const chat = {
 
 
   17: {
-    text: "One heavy rainstorm is a weather event. But the trend of more intense rainstorms is a sign of a changing climate. ⛈",
+    text: "One heavy rainstorm is a weather event. But the trend of more intense rainstorms is a sign of a changing climate ⛈ . Know more about difference between Weather and Climate in the video below.",
     next: 203
   },
 
@@ -191,7 +191,7 @@ const chat = {
   },
 
   20: {
-    text: "The ocean stores vast amounts of heat and carbon, which it exchanges with the atmosphere to impact climate",
+    text: "The ocean stores vast amounts of heat and carbon, which it exchanges with the atmosphere to impact climate. Watch the video below 👇",
     next: 204
   },
 
@@ -330,40 +330,10 @@ const chat = {
 
               100: {
                 text: "Awesome! Let's continue 😎",
-                next: 101
-              },
-
-              101: {
-                text: 'Scientists have only been aware of global climate change for about 50 years.',
-                options: [{
-                    text: "True",
-                    next: 105
-
-                  },
-                  {
-                    text: "False",
-                    next: 103
-                  },
-
-                ]
-              },
-
-              103: {
-                text: "That's right! 🙌 ",
-                next: 104
-              },
-
-              105: {
-                text: "Not true 😕",
-                next: 104
-              },
-
-
-
-              104: {
-                text: "It was around 200 years ago that scientists first began to suspect that the Earth's climate had changed many times in the past. ⛈",
                 next: 106
               },
+
+
 
 //
 
@@ -383,7 +353,7 @@ const chat = {
               },
 
               107: {
-                text: "Correct! 😀",
+                text: "Correct!",
                 next: 108
               },
 
@@ -395,9 +365,19 @@ const chat = {
 
 
               108: {
-                text: "Scientists predict that in this century global warming will be the main cause of animals becoming extinct. A global temperature rise could put a quarter of all species at risk! 🦌🐢🐇🐟",
-                next: 110
+                text: "Scientists predict that in this century global warming will be the main cause of animals becoming extinct.🦌🐢🐇🐟",
+                next: 205
               },
+
+              205: {
+                text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/jphrpR9ffKA?start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                options: [{
+                    text: "Thank you! it really did help me understand more about extinction!",
+                    next: 110
+
+                  }]
+              },
+
 
               //
 
@@ -418,12 +398,74 @@ const chat = {
 
               111: {
                 text: "That's right! You have become an Expert 🤩",
-                next: 22
+                next: 206
+              },
+
+              206: {
+                text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/zaXBVYr9Ij0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                options: [{
+                    text: "Great video! The fossil fuel industry is horrendous!",
+                    next: 207
+
+                  }]
               },
 
               112: {
-                text: "Oh! That's a wrong answer 😣",
-                next: 22
+                text: "Oh! That's a wrong answer 😣. Learn about Fossil Fuel in the video below",
+                next: 206
+              },
+
+              207: {
+                text: 'How about check some other topics from below options?',
+                options: [
+                  {
+                    text: " 🌎 Interesting facts about Climate Change",
+                    next: 208
+                  },
+                  {
+                    text: " 🤖 Tell me more about Climabot",
+                    next: 29
+                  },
+                ]
+              },
+
+              208: {
+                text: "Here are some of Mind-blowing facts about Climate Change ",
+                next: 209
+              },
+
+              209: {
+                text: '<iframe src="https://giphy.com/embed/SACoDGYTvVNhZYNb5a" width="380" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/amine-mind-blown-mindblown-blowing-SACoDGYTvVNhZYNb5a"></a></p>',
+                options: [{
+                  text: "Already excited!!🤩 ",
+                  next: 210
+                }]
+              },
+
+              210: {
+                text: "<b>Fact 1:</b> The golden Toad is the first species to go extinct due to climate change. ",
+                next: 211
+              },
+
+              211: {
+                text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/UPs9IOWRqq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                  options: [{
+                    text: "Fact 2 ",
+                  next: 212
+                }]
+              },
+
+              212: {
+                text: "<b>Fact 2:</b> The hottest years have been experienced from 1990 till 1997. The warmest years have been since 2005 ",
+                next: 213
+              },
+
+              213: {
+                text: '<iframe src="https://giphy.com/embed/qqmBQ0DYDxLna" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gifnews-artists-on-tumblr-qqmBQ0DYDxLna"></a></p>',
+                options: [{
+                  text: "Fact 3 ",
+                  next: 214
+                }]
               },
 
 
