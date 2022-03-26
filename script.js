@@ -24,7 +24,7 @@ const chat = {
         next: 4
       },
       {
-        text: " 🌎 Some Interesting facts about Climate Change",
+        text: " 🌎 Interesting facts about Climate Change",
         next: 208
       },
       {
@@ -69,14 +69,14 @@ const chat = {
   },
 
   9: {
-    text: "The combustion of fossil fuels for energy is the biggest source of carbon dioxide emissions linked to human activity and a major cause of global warming. ",
+    text: "The combustion of fossil fuels for energy is the major cause of global warming. ",
     next: 200
   },
 
   200: {
-    text: '<iframe src="https://giphy.com/embed/tyDl7yMqn1pzVGDLWz" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IntoAction-climate-change-crisis-tyDl7yMqn1pzVGDLWz"></a></p>',
+    text: '<iframe src="https://giphy.com/embed/sO7fqkUEeczo41UbFp" width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IntoAction-sO7fqkUEeczo41UbFp"></a></p>',
     options: [{
-        text: "Amazing!",
+        text: "WHOA!",
         next: 11
 
       }]
@@ -110,12 +110,12 @@ const chat = {
   },
 
   14: {
-    text: "China became the world’s largest emitter of carbon dioxide in 2006, watch the video below and know more about the Coal 👇",
+    text: "China became the world’s largest emitter of carbon dioxide in 2006",
     next: 201
   },
 
   201: {
-    text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/9Wv2GKaukZU?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+    text: "<img class='botImage' src='images/china.png'>",
     options: [{
       text: "Wow! I didn't know that",
       next: 15
@@ -155,7 +155,7 @@ const chat = {
 
 
   17: {
-    text: "One heavy rainstorm is a weather event. But the trend of more intense rainstorms is a sign of a changing climate ⛈ . Know more about difference between Weather and Climate in the video below.",
+    text: "One heavy rainstorm is a weather event. But the trend of more intense rainstorms is a sign of a changing climate ⛈ . Know more about difference between Weather and Climate in the video below 👇",
     next: 203
   },
 
@@ -231,8 +231,8 @@ const chat = {
           text: 'Thanks for playing 😊. Please check these options and learn more about climate change 👇',
           options: [
             {
-              text: " 🌎 Some Interesting facts about Climate Change",
-              next: 29
+              text: " 🌎 Interesting facts about Climate Change",
+              next: 208
             },
             {
               text: " 🤖 Tell me more about Climabot",
@@ -411,7 +411,7 @@ const chat = {
               },
 
               112: {
-                text: "Oh! That's a wrong answer 😣. Learn about Fossil Fuel in the video below",
+                text: "Wrong answer 😣. Learn about Fossil Fuel in the video below",
                 next: 206
               },
 
@@ -419,7 +419,7 @@ const chat = {
                 text: 'How about check some other topics from below options?',
                 options: [
                   {
-                    text: " 🌎 Interesting facts about Climate Change",
+                    text: " 🌎 10 Interesting facts about Climate Change",
                     next: 208
                   },
                   {
@@ -437,18 +437,18 @@ const chat = {
               209: {
                 text: '<iframe src="https://giphy.com/embed/SACoDGYTvVNhZYNb5a" width="380" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/amine-mind-blown-mindblown-blowing-SACoDGYTvVNhZYNb5a"></a></p>',
                 options: [{
-                  text: "Already excited!!🤩 ",
+                  text: "Let's get started 🙌 ",
                   next: 210
                 }]
               },
 
               210: {
-                text: "<b>Fact 1:</b> The golden Toad is the first species to go extinct due to climate change. ",
+                text: "<b>Fact 1:</b> Do you know the Golden Toad is the first species to go extinct due to climate change. ",
                 next: 211
               },
 
               211: {
-                text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/UPs9IOWRqq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                text: "<img class='botImage' src='images/toad.png'>",
                   options: [{
                     text: "Fact 2 ",
                   next: 212
@@ -461,12 +461,145 @@ const chat = {
               },
 
               213: {
-                text: '<iframe src="https://giphy.com/embed/qqmBQ0DYDxLna" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gifnews-artists-on-tumblr-qqmBQ0DYDxLna"></a></p>',
+                text: '<iframe src="https://giphy.com/embed/L2r4woXTLCrkOYK2IT" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IntoAction-environment-heatwave-hot-outside-L2r4woXTLCrkOYK2IT"></a></p>',
                 options: [{
                   text: "Fact 3 ",
                   next: 214
                 }]
               },
+
+              214: {
+                text: "<b>Fact 3:</b> More than 1 million species are at risk of extinction by climate change",
+                next: 215
+              },
+
+              215: {
+                text: '<iframe src="https://giphy.com/embed/6SB7L8B0OApNBkaOck" width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IntoAction-climate-change-vidhyan-6SB7L8B0OApNBkaOck"></a></p>',
+                options: [{
+                  text: "Fact 4 ",
+                  next: 216
+                }]
+              },
+
+              216: {
+                text: "<b>Fact 4:</b> Food prices have risen and will continue to rise by nearly 60% by 2030.",
+                next: 217
+              },
+
+              217: {
+                text: "This 4 minute video explains how impacts differ across different segments of the population ",
+                next: 218
+              },
+
+              218: {
+                text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JP-5dKdvBMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                options: [{
+                  text: "Fact 5 ",
+                  next: 219
+                }]
+              },
+
+              219: {
+                text: "<b>Fact 5:</b> Vehicles like cars and trucks contribute to 20% of carbon emissions ",
+                next: 220
+              },
+
+              220: {
+                text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/QwpZSeX6D0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                options: [{
+                  text: "Fact 6 ",
+                  next: 221
+                }]
+              },
+
+              221: {
+                text: "<b>Fact 6:</b> Hurricanes and droughts are a few of the natural disasters caused due to climate change.",
+                next: 222
+              },
+
+              222: {
+                text: "This image shows all types of weather disasters, some of which are known to be influenced by climate change",
+                next: 223
+              },
+
+              223: {
+                text: "<img class='botImage' src='images/disaster.jpeg'>",
+                options: [{
+                  text: "Fact 7 ",
+                  next: 224
+                }]
+              },
+
+              224: {
+                text: "<b>Fact 7:</b> Jakarta is one of the fastest-sinking cities in the world.",
+                next: 225
+              },
+
+              225: {
+                text: "Here's why 👇 ",
+                next: 226
+              },
+
+              226: {
+                text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/J3UomZkVgAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                options: [{
+                  text: "Fact 8 ",
+                  next: 227
+                }]
+              },
+
+              227: {
+                text: "<b>Fact 8:</b>The last seven years have been the warmest seven years on record",
+                next: 228
+              },
+
+              228: {
+                text: '<iframe src="https://giphy.com/embed/QBdoItysjQSlC5IhOZ" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IntoAction-arielnwilson-wildfires-are-not-a-season-this-is-climate-change-QBdoItysjQSlC5IhOZ"></a></p>',
+                options: [{
+                  text: "Fact 9 ",
+                  next: 229
+                }]
+              },
+
+              229: {
+                text: "<b>Fact 9:</b>Everyone may die at the end of horror movies, but we don’t have to",
+                next: 230
+              },
+
+              230: {
+                text: '<iframe src="https://giphy.com/embed/AZFXN9ckBvn56F6zL6" width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/unitednationshumanrights-loharrisart-humanrightsday-recoverbetter-AZFXN9ckBvn56F6zL6"></a></p>',
+                options: [{
+                  text: "Fact 10 ",
+                  next: 231
+                }]
+              },
+
+              231: {
+                text: "<b>Fact 10:</b>Nature is an untapped solution for climate change. Restore nature",
+                next: 232
+              },
+
+              232: {
+                text: '<iframe src="https://giphy.com/embed/KDzm0erxGj9DjOLIg0" width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/BhumiPednekar-earth-save-help-KDzm0erxGj9DjOLIg0"></a></p>',
+
+                  next: 233
+
+              },
+
+              233: {
+                text: 'Check some more topics from below options',
+                options: [
+                  {
+                    text: " 🙌 Quiz Game",
+                    next: 4
+                  },
+                  {
+                    text: " 🤖 Tell me more about Climabot",
+                    next: 29
+                  },
+                ]
+              },
+
 
 
 
