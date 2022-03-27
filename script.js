@@ -28,8 +28,8 @@ const chat = {
         next: 208
       },
       {
-        text: " 🤖 Tell me more about Climabot",
-        next: 29
+        text: " ✅ 10 ways to fight Climate Crisis",
+        next: 300
       },
     ]
   },
@@ -216,7 +216,7 @@ const chat = {
     text: 'Do you want to continue to another round? ',
     options: [{
         text: "Yes",
-        next: 100
+        next: 106
 
       },
       {
@@ -235,103 +235,12 @@ const chat = {
               next: 208
             },
             {
-              text: " 🤖 Tell me more about Climabot",
-              next: 29
+              text: " ✅ 10 ways to fight Climate Crisis",
+              next: 300
             },
           ]
         },
 
-      29: {
-
-          text: "That's totally alright 😊",
-          next: 30
-
-      },
-
-      30: {
-            text: 'What would you like to know about? 😊 ',
-            options: [{
-                text: "Causes of climate change 🌍",
-                next: 31
-              },
-              {
-                text: "Effects of climate change 🌪 ",
-                next: 33
-              },
-              {
-                text: "Solving climate change 🌳",
-                next: 35
-              },
-
-            ]
-          },
-
-
-
-          31: {
-      text: 'Human activity is the main cause of climate change. Burning fossil fuels and convert land from forests to agriculture.',
-      next: 32
-
-    },
-
-    32: {
-      text: 'Check out the source link below',
-      options: [{
-          text: "www.ec.europa.eu",
-          url: "https://ec.europa.eu/clima/climate-change/causes-climate-change_en",
-
-        },
-
-        {
-          text: "Take me back",
-          next: 30
-        },
-
-
-      ]
-    },
-
-
-  33: {
-          text: 'The effects of climate change include more frequent wildfires, longer periods of drought and an increase in the number of tropical storms ',
-          next: 34
-        },
-        34: {
-          text: "Here's a link. If you want to read in more detail 👇",
-          options: [{
-              text: "www.climate.nasa.gov",
-              url: "https://climate.nasa.gov/effects/",
-            },
-            {
-              text: "Take me back",
-              next: 30
-            },
-          ]
-        },
-
-        35: {
-                text: "Reducing greenhouse gases is a direct way to help slow or stop climate change since excess greenhouse gases are what’s causing the climate to warm.",
-                next: 34
-              },
-              34: {
-                text: "Check the source link 👇",
-                options: [{
-                    text: "www.scied.ucar.edu",
-                    url: "https://scied.ucar.edu/learning-zone/climate-solutions/solving-climate",
-                  },
-
-                  {
-                    text: "Take me back",
-                    next: 30
-                  },
-
-                ]
-              },
-
-              100: {
-                text: "Awesome! Let's continue 😎",
-                next: 106
-              },
 
 
 
@@ -423,8 +332,8 @@ const chat = {
                     next: 208
                   },
                   {
-                    text: " 🤖 Tell me more about Climabot",
-                    next: 29
+                    text: " ✅ 10 ways to fight Climate Crisis",
+                    next: 300
                   },
                 ]
               },
@@ -594,11 +503,166 @@ const chat = {
                     next: 4
                   },
                   {
-                    text: " 🤖 Tell me more about Climabot",
-                    next: 29
+                    text: " ✅ 10 ways to fight Climate Crisis",
+                    next: 300
                   },
                 ]
               },
+
+///
+
+
+
+300: {
+  text: "<b>SPREAD THE WORD</b>",
+  next: 301
+},
+
+301: {
+  text: '<iframe src="https://giphy.com/embed/ZbH9DaFU2dZ4F6M4OI" width="350" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/barack-obama-greta-thunberg-ZbH9DaFU2dZ4F6M4OI"></a></p>',
+  options: [{
+    text: "2",
+    next: 302
+  }]
+},
+
+302: {
+  text: "<b>TRANSFORM YOUR TRANSPORT</b>",
+  next: 303
+},
+
+303: {
+  text: "<img class='botImage' src='images/transport.png'>",
+  options: [{
+    text: "3",
+    next: 304
+  }]
+},
+
+
+304: {
+  text: "<b>EAT MORE PLANT-BASED MEALS</b>",
+  next: 305
+},
+
+305: {
+  text: '<iframe src="https://giphy.com/embed/9Tk1psIYXD8OfI9Sbx" width="350" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/umwelthessen-9Tk1psIYXD8OfI9Sbx"></a></p>',
+  options: [{
+    text: "4",
+    next: 306
+  }]
+},
+
+306: {
+  text: "<b>SHOP LOCAL AND BUY SUSTAINABLE</b>",
+  next: 307
+},
+
+307: {
+  text: '<iframe src="https://giphy.com/embed/dvxricDG1KWHYdClmp" width="350" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Modicum-animation-motion-design-modicum-dvxricDG1KWHYdClmp"></a></p>',
+  options: [{
+    text: "5",
+    next: 308
+  }]
+},
+
+308: {
+  text: "<b>LIMIT IN YOUR POWER USE:</b> Install solar panels on your roof",
+  next: 309
+},
+
+309: {
+  text: '<iframe src="https://giphy.com/embed/Is0BjvPeeZ7w5EuFIT" width="350" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/AZoCleantech-cleantech-azo-azocleantech-Is0BjvPeeZ7w5EuFIT"></a></p>',
+  options: [{
+    text: "6",
+    next: 310
+  }]
+},
+
+
+310: {
+  text: "<b>DON'T WASTE FOOD</b>",
+  next: 311
+},
+
+311: {
+  text: '<iframe src="https://giphy.com/embed/AauZyD5f2pnamJ3Zj0" width="350" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IntoAction-food-waste-80-billion-pounds-of-is-thrown-away-each-year-equivalent-AauZyD5f2pnamJ3Zj0"></a></p>',
+  options: [{
+    text: "7",
+    next: 313
+  }]
+},
+
+
+313: {
+  text: "<b>DRESS (CLIMATE) SMART</b>",
+  next: 314
+},
+
+314: {
+  text: "<img class='botImage' src='images/clothes.png'>",
+  options: [{
+    text: "8",
+    next: 315
+  }]
+},
+
+
+315: {
+  text: "<b>PLANT TREES</b>",
+  next: 316
+},
+
+316: {
+  text: '<iframe src="https://giphy.com/embed/ns3zyhixqVTuE" width="380" height="260" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ns3zyhixqVTuE"></a></p>',
+  options: [{
+    text: "9",
+    next: 317
+  }]
+},
+
+317: {
+  text: "<b>REDUCE WATER WASTE</b>",
+  next: 318
+},
+
+318: {
+  text: '<iframe src="https://giphy.com/embed/lYJGu43Val3WSeQLgW" width="350" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/studioclip-green-ecology-save-water-lYJGu43Val3WSeQLgW"></a></p>',
+  options: [{
+    text: "10",
+    next: 319
+  }]
+},
+
+319: {
+  text: "<b>FOCUS ON PLANET-FRIENDLY INVESTMENTS</b>",
+  next: 320
+},
+
+320: {
+  text: '<iframe src="https://giphy.com/embed/Z5gNSqVmPCNgYYJjcN" width="350" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/IntoAction-clean-water-air-fund-the-fight-for-climate-justice-Z5gNSqVmPCNgYYJjcN"></a></p>',
+  options: [{
+    text: "Thank you for sharing these!",
+    next: 321
+  }]
+},
+
+321: {
+  text: 'Have you checked other topics from the options below?',
+  options: [
+    {
+      text: " 🌎 10 Interesting facts about Climate Change",
+      next: 208
+    },
+    {
+      text: " 🙌 Quiz Game",
+      next: 4
+    },
+  ]
+},
+
+
+
 
 
 
